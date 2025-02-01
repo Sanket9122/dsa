@@ -1,0 +1,73 @@
+<!-- Algorithm to Find Union of Two Sorted Arrays 
+Initialization:
+Create an empty list (or array) union to store the unique elements from both arrays.
+Initialize two pointers, i and j, to 0. These pointers will be used to traverse the two arrays, a and b, respectively.
+Traverse Both Arrays:
+
+While both pointers are within the bounds of their respective arrays:
+If a[i] < b[j]:
+Check if a[i] is not already in union (to avoid duplicates):
+If union is empty or the last element in union is not equal to a[i], add a[i] to union.
+Increment pointer i (move to the next element in array a).
+Else if b[j] < a[i]:
+Check if b[j] is not already in union:
+If union is empty or the last element in union is not equal to b[j], add b[j] to union.
+Increment pointer j (move to the next element in array b).
+Else (if a[i] == b[j]):
+Check if a[i] (or b[j], since they are equal) is not already in union:
+If union is empty or the last element in union is not equal to a[i], add a[i] to union.
+Increment both pointers i and j (move to the next elements in both arrays).
+Add Remaining Elements:
+
+After one of the arrays is fully traversed, check for any remaining elements in the other array:
+While there are remaining elements in array a:
+Check if a[i] is not already in union:
+If union is empty or the last element in union is not equal to a[i], add a[i] to union.
+Increment pointer i.
+While there are remaining elements in array b:
+Check if b[j] is not already in union:
+If union is empty or the last element in union is not equal to b[j], add b[j] to union.
+Increment pointer j.
+Return Result:
+
+Return the union list containing all unique elements from both arrays.
+Complexity Analysis
+Time Complexity: O(n + m), where n is the length of array a and m is the length of array b. This is because we traverse each array at most once.
+Space Complexity: O(n + m) in the worst case if all elements are unique and added to the union list.
+Example Walkthrough
+Let's illustrate the algorithm with an example:
+
+Input:
+
+Array a = {1, 2, 4, 5, 6}
+Array b = {2, 3, 5, 7}
+Step-by-Step Execution:
+
+Initialization:
+
+union = []
+i = 0, j = 0
+First Iteration:
+
+Compare a[0] (1) and b[0] (2).
+1 < 2, so add 1 to union.
+Increment i to 1.
+union = [1]
+Second Iteration:
+
+Compare a[1] (2) and b[0] (2).
+They are equal, add 2 to union.
+Increment both i and j to 2 and 1, respectively.
+union = [1, 2]
+Third Iteration:
+
+Compare a[2] (4) and b[1] (3).
+3 < 4, so add 3 to union.
+Increment j to 2.
+union = [1, 2, 3]
+Fourth Iteration:
+
+Compare a[2] (4) and b[2] (5).
+4 < 5, so add 4 to union.
+Increment i to 3. ->
+
