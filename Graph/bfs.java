@@ -3,16 +3,16 @@ package Graph;
 import java.util.*;
 
 public class bfs {
-    static class Edge {
-        int src, dest, wt;
+static class Edge {
+    int src, dest, wt;
 
-        public Edge(int src, int dest, int wt) {
-            this.src = src;
-            this.dest = dest;
-            this.wt = wt;
+    public Edge(int src, int dest, int wt) {
+        this.src = src;
+        this.dest = dest;
+        this.wt = wt;
 
-        }
     }
+}
 
     static void creategraph(ArrayList<Edge> graph[]) {
         for (int i = 0; i < graph.length; i++) {
