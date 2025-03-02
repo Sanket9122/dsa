@@ -133,39 +133,38 @@ public class kahnsalgorithm {
             }
         }
 
-        // Check for cycle: If not all vertices are processed, there is a cycle
         if (index != V) {
             System.out.println("Graph contains cycle!");
-            return new int[0]; // Return an empty array in case of cycle
+            return new int[0]; 
         }
 
         return result;
     }
 
     public static void main(String[] args) {
-        // Number of nodes
+        
         int n = 6;
 
-        // Edges
+        
         int[][] edges = { { 0, 1 }, { 1, 2 }, { 2, 3 },
                           { 4, 5 }, { 5, 1 }, { 5, 2 } };
 
-        // Graph represented as an adjacency list
+        
         List<List<Integer>> adj = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             adj.add(new ArrayList<>());
         }
 
-        // Constructing adjacency list
+        
         for (int[] edge : edges) {
             adj.get(edge[0]).add(edge[1]);
         }
 
-        // Performing topological sort
+        
         System.out.println("Topological sorting of the graph: ");
         int[] result = topologicalSort(adj, n);
 
-        // Displaying result
+        
         for (int i : result) {
             System.out.print(i + " ");
         }
