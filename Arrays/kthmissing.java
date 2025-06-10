@@ -26,8 +26,10 @@ public class kthmissing {
         int arr[] = {2,3,4,7,11};
         int arr1[] = {1,2,3,4};
         int arr2[] = {5,6,7,8};
+        int arr3[] = {1,2,3,8,10,12};
         System.out.println(k.kthmiss(arr , 5)); 
         System.out.println(k.kthmiss(arr1 , 2)); 
         System.out.println(k.kthmiss(arr2 , 3)); 
+        System.out.println(k.kthmiss(arr3 , 4));
     }
 }

@@ -1,3 +1,4 @@
+//maximum subarray sum using kadannes algorithm
 public class kadannes {
     public static int kadn(int arr[] ){
         int max = arr[0];
