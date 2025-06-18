@@ -1,5 +1,5 @@
 import java.util.*;
-public class rearrangeelements {
+public class rearrangeelements2 {
     public static int[] rearrange(int[] arr) {
         int n = arr.length;
         int [] result = new int[n];
