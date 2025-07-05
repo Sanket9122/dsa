@@ -17,7 +17,7 @@ public class reversepairs {
         int[] nums1 = {1,3,2,3,1};
         int[] nums2 = {2,4,3,5,1};
         int[] nums3 = {7,5,6,4};
-        int [] nums4 = {1,2,3,4,5};
+        int [] nums4 = {1,-1,3,4,5};
         
         
         System.out.println("Reverse pairs in nums1: " + rp.reversePairs(nums1));
