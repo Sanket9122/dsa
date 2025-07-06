@@ -15,7 +15,8 @@ public class oddnumberstring {
     public static void main(String[] args) {
         oddnumberstring obj = new oddnumberstring();
         String num = "52";
-        
+        String num1 = "754620";
         System.out.println(obj.oddnumberString(num));
+        System.out.println(obj.oddnumberString(num1));
     }
 }
