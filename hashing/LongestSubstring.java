@@ -74,3 +74,8 @@ public class LongestSubstring {
         System.out.println(ls.lengthoflongestsubstring(s2)); 
     }
 }
+
+
+// This code finds the length of the longest substring without repeating characters using a sliding window approach.
+// It maintains a HashMap to track the last index of each character and adjusts the start index when a repeating character is encountered.
+// The time complexity is O(n) because the HashMap and the loop iterate through the string once.
