@@ -36,3 +36,16 @@ public class longestcharcterreplacement {
         System.out.println(result1); 
     }
 }
+
+
+
+///algorithm explanation 
+///  The algorithm uses a sliding window approach to find the length of the longest substring
+/// that can be formed by replacing at most k characters.
+/// It maintains a HashMap to track the frequency of characters in the current substring.
+/// It also maintains a variable maxfreq to track the maximum frequency of any character in the substring.  
+/// If the difference between the current substring length and the maximum frequency is greater than k,
+/// it means we need to replace characters, so we move the start of the window forward.
+/// The algorithm continues expanding the end of the window until it reaches the end of the string.
+///  The time complexity is O(n) where n is the length of the string, as each character is processed at most twice (once when added and once when removed).
+/// The space complexity is O(1) since the size of the HashMap is limited to
