@@ -27,5 +27,8 @@ public class medianof2sorted {
         int[] nums3 = {1, 2};
         int[] nums4 = {3, 4};
         System.out.println("Median of the two sorted arrays: " + obj.findmediansortedarray(nums3, nums4));
+        int []nums5 = {1, 2, 3, 4, 5};
+        int []nums6 ={5,4,9,2,1};
+        System.out.println("Median of the two sorted arrays: " + obj.findmediansortedarray(nums5, nums6));
     }  
 }
