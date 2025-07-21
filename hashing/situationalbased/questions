@@ -1,0 +1,18 @@
+question1. Log File Analysis for User Activity (Suspicious Logins)
+Scenario: You need to identify users who perform more than 5 login actions within any 10-minute (600 seconds) rolling window from a stream of log entries [timestamp, userId, actionType]. Log entries are not necessarily sorted.
+
+Output: A list of unique userIds who exhibited suspicious login activity.
+
+question2. Online Poll Result Aggregation
+Scenario: You are aggregating results from an online poll. Votes are (candidateId, userId). The rule is one vote per user per candidate (first vote counts if duplicates). A user can vote for different candidates.
+
+Output:
+
+A Map<String, Integer> representing candidateId to final vote count.
+
+A List<String> of unique userIds whose votes were disregarded (duplicate votes for a candidate they already voted for).
+
+question3. Product Review Analysis - Most Diverse Reviewers
+Scenario: Given a dataset of product reviews (productId, reviewerId), find the N reviewers who have reviewed the most diverse set of products. Diversity means reviewing many different products.
+
+Output: A List<String> containing the top N reviewerIds sorted by their product diversity (highest diversity first). If ties, sort by reviewerId alphabetically.
