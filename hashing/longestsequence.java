@@ -37,3 +37,13 @@ public static void main(String[] args) {
     System.out.println("Longest consecutive sequence: " + longestStreak);
 }
 }
+
+
+
+//algorithm explanation :
+//1. first we check if the input array is null or empty, if it is we return 0.
+//2. we convert the array to a set to remove duplicates and to have O(1) lookup time.
+//3. we iterate over the set and for each number we check if it is the start of a consecutive sequence.
+//4. if it is the start of a sequence we start a while loop that continues as long as the next number in the sequence is in the set.
+//5. we keep track of the current streak and update the longest streak if the current streak is longer.
+//6. we return the longest streak.
