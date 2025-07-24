@@ -38,3 +38,15 @@ public class q1{
         System.out.println(obj.findsuspicious(logs , 1));
     }
 }
+
+//algorithm explanation :
+//1. We create a map to count the number of login actions for each user.
+//2. We iterate over the log entries and update the map accordingly.
+//3. We create a set to store the suspicious users.
+//4. We iterate over the map and add users with a login count greater than the threshold to the set.    
+//5. Finally, we convert the set to a list, sort it, and return it.
+//6. The main method demonstrates the usage of the findsuspicious method with a sample log list.
+//7. The output will be a sorted list of user IDs that have logged in more than the specified threshold number of times.
+//8. The output will show the suspicious users based on the login threshold.
+//9. The code handles cases where the log entries may not have exactly two elements by checking the size of each entry.
+//10. The code uses a HashMap for efficient counting and a HashSet to ensure unique user IDs in the result.
