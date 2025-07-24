@@ -33,3 +33,18 @@ public class q2 {
         System.out.println(result);
     }
 }
+
+// Algorithm Explanation:
+// 1. We create a HashMap to count the votes for each candidate.
+// 2. We create a HashMap to track the voters for each candidate.
+// 3. We iterate over the input votes list.
+// 4. For each vote entry, we check if it has exactly two elements (candidateId and userId).
+// 5. We retrieve or create a Set of voters for the candidate using computeIfAbsent.
+// 6. If the userId is not already in the Set of voters for that candidate, we add it.
+// 7. We increment the vote count for the candidate in the candidateVoteCounts map.
+// 8. Finally, we return the candidateVoteCounts map.
+
+// 9. The main method demonstrates the usage of the Question2 method with a sample votes list.
+// 10. The output will be the number of unique votes for candidate "c1", which is printed to the console.
+// 11. The code handles cases where the vote entries may not have exactly two elements by checking the size of each entry.
+// 12. The code uses a HashMap for efficient counting and a HashSet to ensure unique user IDs for each candidate.
