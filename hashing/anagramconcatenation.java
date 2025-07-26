@@ -54,3 +54,22 @@ public class anagramconcatenation {
 // 6. If no such k is found, we return n, indicating that the entire string is the only valid chunk size.
 // 7. The main method demonstrates the usage of the anagramconcat method with a sample string.
 // 8. The output will be the size of the smallest chunk that can be repeated to form the original string, which is printed to the console.
+
+
+///// example visualization:
+// For the string "ababab":
+//  k = 1: "a", "b", "a", "b", "a", "b" (not all chunks are anagrams)
+//  k = 2: "ab", "ab", "ab" (all chunks are anagrams, return 2)
+//  k = 3: "aba", "bab" (not all chunks are anagrams)
+//  k = 4: "abab", "ab" (not all chunks are anagrams)
+//  k = 5: "ababa", "b" (not all chunks are anagrams)
+//  k = 6: "ababab" (the whole string, not a valid chunk size)
+// For the string "ababbbab":
+//  k = 1: "a", "b", "a", "b", "b", "a", "b", "b" (not all chunks are anagrams)
+//  k = 2: "ab", "ab", "bb", "ab" (not all chunks are anagrams)
+//  k = 3: "aba", "bbb", "ab" (not all chunks are anagrams)
+//  k = 4: "abab", "bbab" (not all chunks are anagrams)
+//  k = 5: "ababb", "bab" (not all chunks are anagrams)
+//  k = 6: "ababbb", "ab" (not all chunks are anagrams)
+//  k = 7: "ababbb", "ab" (not all chunks are anagrams)
+//  k = 8: "ababbbab" (the whole string, not a valid chunk size)
