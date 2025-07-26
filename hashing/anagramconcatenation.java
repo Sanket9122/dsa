@@ -37,7 +37,20 @@ public class anagramconcatenation {
     public static void main(String[] args) {
         anagramconcatenation ac = new anagramconcatenation();
         String s = "ababab";
+        String s1 = "abcabc";
         int result = ac.anagramconcat(s);
+        int result1 = ac.anagramconcat(s1);
         System.out.println(result);
+        System.out.println(result1);
     }
 }
+
+// Algorithm Explanation:
+// 1. We iterate through possible chunk sizes k from 1 to n (length of the string).
+// 2. For each k, we check if n is divisible by k.
+// 3. If it is, we calculate the frequency of characters in the first chunk.
+// 4. Then, we check if the remaining chunks are anagrams of the first chunk.
+// 5. If they are, we return k as the result.
+// 6. If no such k is found, we return n, indicating that the entire string is the only valid chunk size.
+// 7. The main method demonstrates the usage of the anagramconcat method with a sample string.
+// 8. The output will be the size of the smallest chunk that can be repeated to form the original string, which is printed to the console.
