@@ -1,0 +1,882 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "kokEatingBananas",
+            "request": "launch",
+            "mainClass": "kokEatingBananas",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BinarytreeToBST",
+            "request": "launch",
+            "mainClass": "BinarytreeToBST",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "BracketValidator",
+            "request": "launch",
+            "mainClass": "BracketValidator",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "DeleteNodeTwoChild",
+            "request": "launch",
+            "mainClass": "DeleteNodeTwoChild",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "DeleteNodeWithOneChild",
+            "request": "launch",
+            "mainClass": "DeleteNodeWithOneChild",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "FloodFill",
+            "request": "launch",
+            "mainClass": "Graph.FloodFill",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "adjacencylist",
+            "request": "launch",
+            "mainClass": "Graph.adjacencylist",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "adjacencymatrix",
+            "request": "launch",
+            "mainClass": "Graph.adjacencymatrix",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "arrivalatdestination",
+            "request": "launch",
+            "mainClass": "Graph.arrivalatdestination",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "bfs",
+            "request": "launch",
+            "mainClass": "Graph.bfs",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "binarymaze",
+            "request": "launch",
+            "mainClass": "Graph.binarymaze",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "ccledetection",
+            "request": "launch",
+            "mainClass": "Graph.ccledetection",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "ccledetection2",
+            "request": "launch",
+            "mainClass": "Graph.ccledetection2",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "cheapestflight",
+            "request": "launch",
+            "mainClass": "Graph.cheapestflight",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "cheapestflight2",
+            "request": "launch",
+            "mainClass": "Graph.cheapestflight2",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "cheapestflight3",
+            "request": "launch",
+            "mainClass": "Graph.cheapestflight3",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "dfs",
+            "request": "launch",
+            "mainClass": "Graph.dfs",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "dijkstra",
+            "request": "launch",
+            "mainClass": "Graph.dijkstra",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "dijkstra2",
+            "request": "launch",
+            "mainClass": "Graph.dijkstra2",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "distinctislands",
+            "request": "launch",
+            "mainClass": "Graph.distinctislands",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "eventualsafestates",
+            "request": "launch",
+            "mainClass": "Graph.eventualsafestates",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "kahnsalgorithm",
+            "request": "launch",
+            "mainClass": "Graph.kahnsalgorithm",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "minimumeffort",
+            "request": "launch",
+            "mainClass": "Graph.minimumeffort",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "minimumeffort2",
+            "request": "launch",
+            "mainClass": "Graph.minimumeffort2",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "numberofEnclave",
+            "request": "launch",
+            "mainClass": "Graph.numberofEnclave",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "printshortest",
+            "request": "launch",
+            "mainClass": "Graph.printshortest",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "provincecount",
+            "request": "launch",
+            "mainClass": "Graph.provincecount",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "rottenoranges",
+            "request": "launch",
+            "mainClass": "Graph.rottenoranges",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "shortestpath",
+            "request": "launch",
+            "mainClass": "Graph.shortestpath",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "shortestpath2",
+            "request": "launch",
+            "mainClass": "Graph.shortestpath2",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "shortestpathvisitingallnodes",
+            "request": "launch",
+            "mainClass": "Graph.shortestpathvisitingallnodes",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "surroundedregion",
+            "request": "launch",
+            "mainClass": "Graph.surroundedregion",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "topologicalsort",
+            "request": "launch",
+            "mainClass": "Graph.topologicalsort",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "wordladder",
+            "request": "launch",
+            "mainClass": "Graph.wordladder",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "zeroonematrix",
+            "request": "launch",
+            "mainClass": "Graph.zeroonematrix",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "Intersection",
+            "request": "launch",
+            "mainClass": "Intersection",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "LLframework",
+            "request": "launch",
+            "mainClass": "LLframework",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "LLimplementation$LLstack",
+            "request": "launch",
+            "mainClass": "LLimplementation$LLstack",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "ListNode",
+            "request": "launch",
+            "mainClass": "ListNode",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "RightViewBinaryTree",
+            "request": "launch",
+            "mainClass": "RightViewBinaryTree",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "integertoroman",
+            "request": "launch",
+            "mainClass": "Strings.integertoroman",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "isomorphicstrings",
+            "request": "launch",
+            "mainClass": "Strings.isomorphicstrings",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "longestPrefixSum",
+            "request": "launch",
+            "mainClass": "Strings.longestPrefixSum",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "maximumNestedDepths",
+            "request": "launch",
+            "mainClass": "Strings.maximumNestedDepths",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "oddnumberstring",
+            "request": "launch",
+            "mainClass": "Strings.oddnumberstring",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "removeouterparenthesis",
+            "request": "launch",
+            "mainClass": "Strings.removeouterparenthesis",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "reversestring",
+            "request": "launch",
+            "mainClass": "Strings.reversestring",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "romantointeger",
+            "request": "launch",
+            "mainClass": "Strings.romantointeger",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "rotatestring",
+            "request": "launch",
+            "mainClass": "Strings.rotatestring",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "sortByFrequency",
+            "request": "launch",
+            "mainClass": "Strings.sortByFrequency",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "sumofBeauty",
+            "request": "launch",
+            "mainClass": "Strings.sumofBeauty",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "Twosumpairwith0sum",
+            "request": "launch",
+            "mainClass": "Twosumpairwith0sum",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "arrayimplementation",
+            "request": "launch",
+            "mainClass": "arrayimplementation",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "arraylist",
+            "request": "launch",
+            "mainClass": "arraylist",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "balancedBracket",
+            "request": "launch",
+            "mainClass": "balancedBracket",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "balancedtree",
+            "request": "launch",
+            "mainClass": "balancedtree",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "binarytree",
+            "request": "launch",
+            "mainClass": "binarytree",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "bracketBalancer",
+            "request": "launch",
+            "mainClass": "bracketBalancer",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "buysellstock",
+            "request": "launch",
+            "mainClass": "buysellstock",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "copyqueue",
+            "request": "launch",
+            "mainClass": "copyqueue",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "copystack",
+            "request": "launch",
+            "mainClass": "copystack",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "countNodes",
+            "request": "launch",
+            "mainClass": "countNodes",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "countgoodTriplets",
+            "request": "launch",
+            "mainClass": "countgoodTriplets",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "deleteNodeBST",
+            "request": "launch",
+            "mainClass": "deleteNodeBST",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "Foursum2",
+            "request": "launch",
+            "mainClass": "hashing.Foursum2",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "GFG",
+            "request": "launch",
+            "mainClass": "hashing.GFG",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "GetRandom",
+            "request": "launch",
+            "mainClass": "hashing.GetRandom",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "HappyNumber",
+            "request": "launch",
+            "mainClass": "hashing.HappyNumber",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "HashMapCode",
+            "request": "launch",
+            "mainClass": "hashing.HashMapCode",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "IntersectionofArrays",
+            "request": "launch",
+            "mainClass": "hashing.IntersectionofArrays",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubstring",
+            "request": "launch",
+            "mainClass": "hashing.LongestSubstring",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "MajorityElements",
+            "request": "launch",
+            "mainClass": "hashing.MajorityElements",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "insertion",
+            "request": "launch",
+            "mainClass": "hashing.Trie.insertion",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "UnionofArrays",
+            "request": "launch",
+            "mainClass": "hashing.UnionofArrays",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "anagramconcatenation",
+            "request": "launch",
+            "mainClass": "hashing.anagramconcatenation",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "duplicate2",
+            "request": "launch",
+            "mainClass": "hashing.duplicate2",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "findAllAnagrams",
+            "request": "launch",
+            "mainClass": "hashing.findAllAnagrams",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "groupanagrams",
+            "request": "launch",
+            "mainClass": "hashing.groupanagrams",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "hashmap",
+            "request": "launch",
+            "mainClass": "hashing.hashmap",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "hashset",
+            "request": "launch",
+            "mainClass": "hashing.hashset",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "intersectiorofArrays2",
+            "request": "launch",
+            "mainClass": "hashing.intersectiorofArrays2",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "itinerary",
+            "request": "launch",
+            "mainClass": "hashing.itinerary",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "jewelstones",
+            "request": "launch",
+            "mainClass": "hashing.jewelstones",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "kfrequentelements",
+            "request": "launch",
+            "mainClass": "hashing.kfrequentelements",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "longestcharcterreplacement",
+            "request": "launch",
+            "mainClass": "hashing.longestcharcterreplacement",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "longestsequence",
+            "request": "launch",
+            "mainClass": "hashing.longestsequence",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "minimumndexsum",
+            "request": "launch",
+            "mainClass": "hashing.minimumndexsum",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "repeatingelement",
+            "request": "launch",
+            "mainClass": "hashing.repeatingelement",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "q1",
+            "request": "launch",
+            "mainClass": "hashing.situationalbased.q1",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "q2",
+            "request": "launch",
+            "mainClass": "hashing.situationalbased.q2",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "q3",
+            "request": "launch",
+            "mainClass": "hashing.situationalbased.q3",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "subarraydivide",
+            "request": "launch",
+            "mainClass": "hashing.subarraydivide",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "subarraysum",
+            "request": "launch",
+            "mainClass": "hashing.subarraysum",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "sumwith0",
+            "request": "launch",
+            "mainClass": "hashing.sumwith0",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "uniquecharacter",
+            "request": "launch",
+            "mainClass": "hashing.uniquecharacter",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "heightoftree",
+            "request": "launch",
+            "mainClass": "heightoftree",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "inorder",
+            "request": "launch",
+            "mainClass": "inorder",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "inorderBST$BST",
+            "request": "launch",
+            "mainClass": "inorderBST$BST",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "insertatbottom",
+            "request": "launch",
+            "mainClass": "insertatbottom",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "kadannes",
+            "request": "launch",
+            "mainClass": "kadannes",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "kthmissing",
+            "request": "launch",
+            "mainClass": "kthmissing",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "levelordertraversal",
+            "request": "launch",
+            "mainClass": "levelordertraversal",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "linkedlist",
+            "request": "launch",
+            "mainClass": "linkedlist",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "maxproductsubarray",
+            "request": "launch",
+            "mainClass": "maxproductsubarray",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "medianof2sorted",
+            "request": "launch",
+            "mainClass": "medianof2sorted",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "mirrortree",
+            "request": "launch",
+            "mainClass": "mirrortree",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "missingpositive",
+            "request": "launch",
+            "mainClass": "missingpositive",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "nthendNode",
+            "request": "launch",
+            "mainClass": "nthendNode",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "postordertraversal",
+            "request": "launch",
+            "mainClass": "postordertraversal",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "preorderBST",
+            "request": "launch",
+            "mainClass": "preorderBST",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "rearrangeelements",
+            "request": "launch",
+            "mainClass": "rearrangeelements",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "rearrangeelements2",
+            "request": "launch",
+            "mainClass": "rearrangeelements2",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "rearrangelements2",
+            "request": "launch",
+            "mainClass": "rearrangelements2",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "removefrombottom",
+            "request": "launch",
+            "mainClass": "removefrombottom",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "reverseLL",
+            "request": "launch",
+            "mainClass": "reverseLL",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "reverseStack",
+            "request": "launch",
+            "mainClass": "reverseStack",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "reversepairs",
+            "request": "launch",
+            "mainClass": "reversepairs",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "samelevelleaf",
+            "request": "launch",
+            "mainClass": "samelevelleaf",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "searchBST",
+            "request": "launch",
+            "mainClass": "searchBST",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "sortcolors",
+            "request": "launch",
+            "mainClass": "sortcolors",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "subarraysum(1)",
+            "request": "launch",
+            "mainClass": "subarraysum",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "sumofNodes2",
+            "request": "launch",
+            "mainClass": "sumofNodes2",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "sumofnodes",
+            "request": "launch",
+            "mainClass": "sumofnodes",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "transformToSumTree",
+            "request": "launch",
+            "mainClass": "transformToSumTree",
+            "projectName": "java dsa learning_97861207"
+        }
+    ]
+}
