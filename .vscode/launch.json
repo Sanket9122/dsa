@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "wordBreak",
+            "request": "launch",
+            "mainClass": "Strings.wordBreak",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "wordLadder",
+            "request": "launch",
+            "mainClass": "Strings.wordLadder",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "kokEatingBananas",
             "request": "launch",
             "mainClass": "kokEatingBananas",
