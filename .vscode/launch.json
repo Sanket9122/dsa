@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Subarrayswithsum",
             "request": "launch",
+            "mainClass": "Subarrayswithsum",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "Subarrayswithsum",
+            "request": "launch",
             "mainClass": "hashing.Subarrayswithsum",
             "projectName": "java dsa learning_97861207"
         },
