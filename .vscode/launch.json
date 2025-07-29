@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mid",
+            "request": "launch",
+            "mainClass": "LinkedList.mid",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "Subarrayswithsum",
             "request": "launch",
             "mainClass": "Subarrayswithsum",

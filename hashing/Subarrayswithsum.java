@@ -50,3 +50,11 @@ public class Subarrayswithsum {
 //Input: nums = [1, 0, 1, 0, 1], goal = 2
 //Output: 4
 //Explanation: The subarrays with sum equal to 2 are [1, 0, 1] (from index 0 to 2), [0, 1, 0, 1] (from index 1 to 4), [1, 0, 1] (from index 2 to 4), and [0, 1] (from index 3 to 4).
+
+
+
+
+
+
+
+
