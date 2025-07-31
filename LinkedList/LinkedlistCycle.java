@@ -11,5 +11,22 @@ class Node {
     }
 }
 public class LinkedlistCycle{
-    
+    public boolean hascycle (Node head){
+        if(head == null) {
+            return false ;
+        }
+        Node slow = head;
+        Node fast = head;
+        while(slow!=null && fast!=null && fast.next!=null){
+          slow=slow.next;
+          fast=fast.next.next;
+           if(fast==slow){
+            return true;
+          }
+        }
+          return false;
+    }
+    public static void main(String[] args) {
+        
+    }
 }
