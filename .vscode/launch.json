@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "palindromelist",
+            "request": "launch",
+            "mainClass": "LinkedList.palindromelist",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "mid",
             "request": "launch",
             "mainClass": "LinkedList.mid",
