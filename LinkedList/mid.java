@@ -9,7 +9,6 @@ class Node {
     }
 }
 public class mid {
-    Node head;
     public Node findmid(Node head){
         Node slow   = head ; 
         Node fast =head ; 
