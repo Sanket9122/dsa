@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "removeLL",
+            "request": "launch",
+            "mainClass": "LinkedList.removeLL",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "reverse",
+            "request": "launch",
+            "mainClass": "LinkedList.reverse",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "palindromelist",
             "request": "launch",
             "mainClass": "LinkedList.palindromelist",
