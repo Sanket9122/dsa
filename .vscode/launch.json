@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "climbingstairs",
+            "request": "launch",
+            "mainClass": "DP.climbingstairs",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "fib",
             "request": "launch",
             "mainClass": "DP.fib",
