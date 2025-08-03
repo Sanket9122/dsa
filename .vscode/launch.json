@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fib",
+            "request": "launch",
+            "mainClass": "DP.fib",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "removeLL",
             "request": "launch",
             "mainClass": "LinkedList.removeLL",
