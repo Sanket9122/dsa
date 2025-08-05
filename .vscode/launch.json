@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fogJump",
+            "request": "launch",
+            "mainClass": "DP.fogJump",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "climbingstairs",
             "request": "launch",
             "mainClass": "DP.climbingstairs",
