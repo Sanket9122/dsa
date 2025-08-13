@@ -1,11 +1,11 @@
 package DP;
 import java.util.*;
-public class fogJump {
-    public boolean canJump(int [] stones){
-       
-        Map<Integer , Set<Integer>> dp  = new HashMap<>();
-        for(int stone : stones){
-            dp.put(stone , new HashSet<>());
+
+public class frogjump {
+    public boolean canCross(int[] stones) {
+        Map<Integer, Set<Integer>> dp = new HashMap<>();
+        for (int stone : stones) {
+            dp.put(stone, new HashSet<>());
         }
         dp.get(0).add(0);
 
@@ -25,11 +25,14 @@ public class fogJump {
 
         return dp.get(stones[stones.length - 1]).size() > 0;
     }
+    
     public static void main(String[] args) {
-        fogJump f = new fogJump();
-        int[] stones = {0,1,3,5,6,8,12,17};
-        int [] stones1={0,1,2,3,4,8,9,11};
-        System.out.println(f.canJump(stones1));
-        System.out.println(f.canJump(stones));
+        frogjump fj = new frogjump();
+        int[] stones = {0, 1, 3, 5, 6, 8, 12, 17};
+        System.out.println(fj.canCross(stones));
+        int[] stones2 = {0, 1, 2, 3, 4, 8, 9, 11};
+        System.out.println(fj.canCross(stones2));
     }
 }
+
+
