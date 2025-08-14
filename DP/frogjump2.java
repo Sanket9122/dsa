@@ -61,3 +61,9 @@ public class frogjump2{
         System.out.println(result);
     }
 }
+
+
+//***/
+//1 - the code is defining the `frogjump2` class with methods to determine the maximum jump distance a frog can make across stones.
+//2 - the `maxfrogjump` method uses binary search to find the maximum jump distance the frog can make while still being able to cross all stones.
+//3 - the `canCrossWithMaxJump` method checks if the frog can cross the stones with a given maximum jump distance by iterating through the stones and ensuring that the distance between consecutive stones does not exceed the maximum jump.
