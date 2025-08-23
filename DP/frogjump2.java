@@ -2,7 +2,7 @@ package DP;
 import java.util.*;
 public class frogjump2{
     public int maxfrogjump (int [] stones ){
-          int left = 0;
+        int left = 0;
         int right = stones[stones.length - 1] - stones[0];
         int ans = right;
 
@@ -61,9 +61,11 @@ public class frogjump2{
         System.out.println(result);
     }
 }
-
-
-//***/
-//1 - the code is defining the `frogjump2` class with methods to determine the maximum jump distance a frog can make across stones.
-//2 - the `maxfrogjump` method uses binary search to find the maximum jump distance the frog can make while still being able to cross all stones.
-//3 - the `canCrossWithMaxJump` method checks if the frog can cross the stones with a given maximum jump distance by iterating through the stones and ensuring that the distance between consecutive stones does not exceed the maximum jump.
+//**algorithm explanation */
+// The algorithm uses binary search to find the minimum possible maximum jump distance.
+// It defines a helper function canCrossWithMaxJump to check if the frog can cross the
+// stones with a given maximum jump distance.
+// The main function maxfrogjump performs binary search on the range of possible jump distances,
+// and returns the minimum possible maximum jump distance that allows the frog to cross all the stones. 
+// The main method demonstrates the usage of the maxfrogjump method with a sample array of stone positions.
+// The output will be the minimum possible maximum jump distance, which is printed to the console.
