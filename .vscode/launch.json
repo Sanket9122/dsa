@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "houseRobber",
+            "request": "launch",
+            "mainClass": "DP.houseRobber",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "frogjump3",
             "request": "launch",
             "mainClass": "DP.frogjump3",
