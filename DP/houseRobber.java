@@ -26,3 +26,12 @@ public class houseRobber {
         System.out.println(result + " " + result1);
     }
 }
+
+//algorithmic explanation
+//1. Create a dp array to store the maximum amount of money that can be robbed up to each house.
+//2. Initialize the first two elements of the dp array: dp[0] is the amount in the first house, and dp[1] is the maximum of the first two houses.
+//3. Iterate through the houses starting from the third house (index 2).
+//4. For each house, calculate the maximum amount of money that can be robbed by either robbing the current house and adding it to the amount robbed from two houses ago (dp[i-2]), or by skipping the current house and taking the amount robbed from the previous house (dp[i-1]).
+//5. Update the dp array with the maximum amount for each house.
+//6. After iterating through all the houses, return the last element of the dp array, which contains the maximum amount of money that can be robbed without alerting the police.
+
