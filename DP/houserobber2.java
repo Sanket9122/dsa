@@ -23,3 +23,10 @@ public class houserobber2 {
         System.out.println(result + " " + result1);
     }
 }
+
+//algorithmic explanation
+//1. Initialize two variables, rob1 and rob2, to keep track of the maximum amount of money that can be robbed in two consecutive houses.
+//2. Iterate over the array of houses and calculate the maximum amount of money that can be robbed in each house.
+//3. For each house, calculate the maximum amount of money that can be robbed by either robbing the current house and adding it to the amount robbed from two houses ago (rob2), or by skipping the current house and taking the amount robbed from the previous house (rob1).
+//4. Update rob2 to be the value of rob1, and rob1 to be the value of currmax.
+//5. After iterating through all the houses, return rob1, which contains the maximum amount of money that can be robbed without alerting the police.
