@@ -1,6 +1,6 @@
 package DP;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class knapsack2d {
 
@@ -41,3 +41,8 @@ public class knapsack2d {
         System.out.println(result);
     }
 }
+
+
+//algorithmic explanation
+//1. if n==0 or max_cap==0 return 0
+//2. if dp[n][max_cap] != -1 return dp[n][max_cap]

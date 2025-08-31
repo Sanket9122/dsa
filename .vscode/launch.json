@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mincost_to_reach_i",
+            "request": "launch",
+            "mainClass": "DP.mincost_to_reach_i",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "knapsack2d",
             "request": "launch",
             "mainClass": "DP.knapsack2d",
