@@ -23,3 +23,14 @@ public class climbingstairs1 {
         System.out.println(ob.climbstairs(n));
     }
 }
+
+//algorithmic explanation
+//1. we have to find the number of ways to reach the nth stair
+//2. we can either take 1 step or 2 steps to reach the next stair
+//3. we can use recursion with memoization to solve this problem
+//4. we will create a HashMap to store the number of ways to reach each stair
+//5. we will start from the second stair and move to the top recursively
+//6. base case: if we reach the top, return 1
+//7. if the value is already computed, return it from the memo HashMap
+//8. otherwise, compute the number of ways to reach the current stair by taking 1 step or 2 steps
+//9. store the result in the memo HashMap and return it

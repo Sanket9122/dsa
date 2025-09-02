@@ -19,3 +19,14 @@ public class mincost_to_reach_i {
         System.out.println(mc.mincost(cost1));
     }
 }
+
+//algorithmic explanation
+//1. we have to find the minimum cost to reach the top of the floor
+//2. we can start from either step 0 or step 1
+//3. we can use recursion with memoization to solve this problem
+//4. we will create a 1D array to store the minimum cost at each step
+//5. we will start from step 2 and move to the top recursively
+//6. base case: if we reach step 0 or step 1, return the cost of that step
+//7. if the value is already computed, return it from the dp array
+//8. otherwise, compute the minimum cost by moving to either step 0 or step 1
+//9. store the result in the dp array and return it 
