@@ -4,18 +4,20 @@ public class minpathsum1 {
     public int minpath(int [][] grids){
         int m = grids.length ; 
         int n = grids[0].length ;
-        for(int i = 1 ; i<m ;i++){
-            grids[i][0]+=grids[i-1][0];
+        int [][] dp = new int [m][n];
+        dp[0][0] = grids[0][0];
+        for (int j = 1; j < n; j++) {
+            dp[0][j] = dp[0][j-1] + grids[0][j];
         }
-        for(int j=1;j<n;j++){
-            grids[0][j]+=grids[0][j-1];
+        for (int i = 1; i < m; i++) {
+            dp[i][0] = dp[i-1][0] + grids[i][0];
         }
-        for(int i = 1 ; i<m ;i++){
-            for(int j=1;j<n;j++){
-                grids[i][j]+=Math.min(grids[i-1][j], grids[i][j-1]);
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                dp[i][j] = grids[i][j] + Math.min(dp[i-1][j], dp[i][j-1]);
             }
         }
-        return grids[m-1][n-1];
+        return dp[m-1][n-1];
     }
     public static void main(String[] args) {
         minpathsum1 ob = new minpathsum1();
@@ -25,3 +27,15 @@ public class minpathsum1 {
         System.out.println(ob.minpath(grids));
     }
 }
+
+
+//algorithmic explanation
+//1. we have to find the minimum path sum from top left to bottom right in a grid
+//2. we can only move down or right
+//3. we can use dynamic programming to solve this problem
+//4. we will create a 2D array to store the minimum path sum at each cell
+//5. we will start from the top left cell and move down or right iteratively
+//6. base case: the value at the top left cell is the value of that cell
+//7. we will fill the first row and first column by adding the values of the cells
+//8. for other cells, we will compute the minimum path sum by taking the minimum of the cell above and the cell to the left
+//9. store the result in the dp array and return the value at the bottom right cell

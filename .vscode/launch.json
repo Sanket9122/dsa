@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "minpathsum2",
+            "request": "launch",
+            "mainClass": "DP.minpathsum2",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "minpathsum1",
             "request": "launch",
             "mainClass": "DP.minpathsum1",
