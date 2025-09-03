@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "decodeways",
+            "request": "launch",
+            "mainClass": "DP.decodeways",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "minpathsum2",
             "request": "launch",
             "mainClass": "DP.minpathsum2",
