@@ -37,7 +37,7 @@ public class decodeways1 {
     }
 
     public static void main(String[] args) {
-        DecodeWays1 ob = new DecodeWays1();
+        decodeways1 ob = new decodeways1();
         String s = "226";
         System.out.println(ob.numDecoding(s));
     }
