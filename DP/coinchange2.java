@@ -19,3 +19,13 @@ public class coinchange2 {
         System.out.println(obj.changedecoder(coins, amount));
     }
 }
+
+
+//algorithmic explanation
+//1. We create a dp array of size amount+1 to store the number of ways to make change for each amount from 0 to the target amount.
+//2. We initialize dp[0] to 1 because there is one way to make change for amount 0 (using no coins).
+//3. We iterate through each coin in the coins array.
+//4. For each coin, we iterate through all amounts from coin to the target amount (inclusive).
+//5. For each amount, we update dp[i] (where i is the current amount) by adding the number of ways to make change for the amount i-coin (dp[i-coin]) to the current number of ways (dp[i]).
+//6. Finally, we return dp[amount], which represents the number of ways to make change for the target amount.
+
