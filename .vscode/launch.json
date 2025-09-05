@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "coinchange2",
+            "request": "launch",
+            "mainClass": "DP.coinchange2",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "coinchange1",
             "request": "launch",
             "mainClass": "DP.coinchange1",
