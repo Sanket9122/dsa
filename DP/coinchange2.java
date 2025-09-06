@@ -15,8 +15,11 @@ public class coinchange2 {
     public static void main(String[] args) {
         coinchange2 obj = new coinchange2();
         int [] coins = {1,2,5};
+        int [] coins1 = {10,20,3};
+        int amount1 =4;
         int amount = 5;
         System.out.println(obj.changedecoder(coins, amount));
+        System.out.println(obj.changedecoder(coins1, amount1));
     }
 }
 
