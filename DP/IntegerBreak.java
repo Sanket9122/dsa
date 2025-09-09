@@ -19,8 +19,10 @@ public class IntegerBreak {
         IntegerBreak obj = new IntegerBreak();
         int n = 10;
         int n1=4;
+        int n2=6;
         System.out.println(obj.integerbreak(n));
         System.out.println(obj.integerbreak(n1));
+        System.out.println(obj.integerbreak(n2));
     }
 }
 
