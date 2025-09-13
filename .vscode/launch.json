@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "findkthlargestelement",
+            "request": "launch",
+            "mainClass": "findkthlargestelement",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "findkthsmallestelement",
             "request": "launch",
             "mainClass": "findkthsmallestelement",
