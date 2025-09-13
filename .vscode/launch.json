@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "insertintobst",
+            "request": "launch",
+            "mainClass": "insertintobst",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "findkthlargestelement",
             "request": "launch",
             "mainClass": "findkthlargestelement",
