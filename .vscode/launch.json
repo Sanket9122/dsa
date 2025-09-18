@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TwosumIV",
+            "request": "launch",
+            "mainClass": "TwosumIV",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "subarraytriplets",
             "request": "launch",
             "mainClass": "Arrays.subarraytriplets",
