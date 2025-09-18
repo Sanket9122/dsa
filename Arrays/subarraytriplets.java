@@ -18,3 +18,7 @@ public class subarraytriplets{
         System.out.println( result);
     }
 }
+
+
+//for this problem as we have to check the subarray with only 3 elemennts so we will travel till n-2 elements only 
+//and check for the conditions specified in the question and if it satisfies we will increase the count variable by 1
