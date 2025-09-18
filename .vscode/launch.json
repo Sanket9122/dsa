@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "subarraytriplets",
+            "request": "launch",
+            "mainClass": "Arrays.subarraytriplets",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "encoder",
+            "request": "launch",
+            "mainClass": "capgemini.encoder",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
+            "name": "stringmsgencoder",
+            "request": "launch",
+            "mainClass": "capgemini.stringmsgencoder",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "insertintobst",
             "request": "launch",
             "mainClass": "insertintobst",
