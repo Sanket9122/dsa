@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "happytriplets",
+            "request": "launch",
+            "mainClass": "Strings.happytriplets",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "TwosumIV",
             "request": "launch",
             "mainClass": "TwosumIV",

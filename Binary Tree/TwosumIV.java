@@ -38,3 +38,11 @@ public class TwosumIV {
         System.out.println(obj.findtarget(root, k1)); 
     }
 }
+
+
+//algorithmic explanation
+//we will use a hashset to store the values of the nodes as we traverse the tree
+//for each node we will check if the complement (k - node's value) exists in the hashset
+//if it exists we return true as we have found a pair that sums to k    
+//if it does not exist we add the node's value to the hashset and continue the traversal
+//if we traverse the entire tree without finding such a pair we return false
