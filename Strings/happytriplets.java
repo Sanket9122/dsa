@@ -21,6 +21,8 @@ public class happytriplets {
         System.out.println(obj.countdivisblestrings(s));
         String s1 = "357698";
         System.out.println(obj.countdivisblestrings(s1));
+        String s2 = "234876";
+        System.out.println(obj.countdivisblestrings(s2));
     }
 }
 
