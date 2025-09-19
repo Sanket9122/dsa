@@ -19,6 +19,8 @@ public class happytriplets {
         happytriplets obj = new happytriplets();
         String s = "12345680";
         System.out.println(obj.countdivisblestrings(s));
+        String s1 = "357698";
+        System.out.println(obj.countdivisblestrings(s1));
     }
 }
 
