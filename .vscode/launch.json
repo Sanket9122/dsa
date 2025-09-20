@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lowestcommonancestore",
+            "request": "launch",
+            "mainClass": "lowestcommonancestore",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "happytriplets",
             "request": "launch",
             "mainClass": "Strings.happytriplets",
