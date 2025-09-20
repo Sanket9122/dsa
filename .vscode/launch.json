@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lca",
+            "request": "launch",
+            "mainClass": "lca",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "lowestcommonancestore",
             "request": "launch",
             "mainClass": "lowestcommonancestore",
