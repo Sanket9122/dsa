@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "msgcompressor",
+            "request": "launch",
+            "mainClass": "Strings.msgcompressor",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "lca",
             "request": "launch",
             "mainClass": "lca",

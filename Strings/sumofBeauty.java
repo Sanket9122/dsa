@@ -30,3 +30,7 @@ public class sumofBeauty {
         System.out.println(sb.beautySum(s1));
     }
 }
+
+
+//question is to find the sum of beauty of all substrings of a given string
+//beauty of a substring is defined as the difference between the maximum and minimum frequency of characters in the substring
