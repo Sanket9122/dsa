@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maxcountsubset",
+            "request": "launch",
+            "mainClass": "cognizant.maxcountsubset",
+            "projectName": "java dsa learning_97861207"
+        },
+        {
+            "type": "java",
             "name": "msgcompressor2",
             "request": "launch",
             "mainClass": "Strings.msgcompressor2",
