@@ -41,6 +41,7 @@ public class binarytree{
         BinaryTree tree = new BinaryTree();
         Node root = tree.buidTree(node); 
         System.out.println(root.data);
+        preorder(root);
        
         }
 }
